@@ -1,0 +1,114 @@
+[28May2025 01:52:54.804] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[28May2025 01:52:54.805] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 24.0.1 by Oracle Corporation; OS Mac OS X arch aarch64 version 15.1
+[28May2025 01:52:54.865] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/anmolu/GitHub/AHHHH/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[28May2025 01:52:54.953] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/anmolu/GitHub/AHHHH/libraries/net/minecraftforge/fmlcore/1.19.2-43.5.0/fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
+[28May2025 01:52:54.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/anmolu/GitHub/AHHHH/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.5.0/javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[28May2025 01:52:54.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/anmolu/GitHub/AHHHH/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.5.0/lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[28May2025 01:52:54.955] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/anmolu/GitHub/AHHHH/libraries/net/minecraftforge/mclanguage/1.19.2-43.5.0/mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[28May2025 01:52:55.002] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[28May2025 01:52:55.382] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28May2025 01:52:55.387] [main/ERROR] [mixin/]: Mixin config minecraftcapes.mixin.json does not specify "minVersion" property
+[28May2025 01:52:55.403] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[28May2025 01:52:55.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[28May2025 01:52:55.418] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[28May2025 01:52:55.440] [main/WARN] [ModernFixConfig/]: ModelDataManager bugfixes have been disabled to prevent broken rendering with Rubidium installed. Please migrate to Embeddium.
+[28May2025 01:52:55.441] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 1 override(s) found
+[28May2025 01:52:55.441] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.model_data_manager_cme' overriden (by mods [rubidium]) to 'false'
+[28May2025 01:52:55.442] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[28May2025 01:52:55.446] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[28May2025 01:52:55.642] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[28May2025 01:52:56.031] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (1.935 s after launch)
+[28May2025 01:52:56.074] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28May2025 01:52:56.075] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28May2025 01:52:56.099] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[28May2025 01:52:56.099] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[28May2025 01:52:56.407] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 374 milliseconds
+[28May2025 01:52:57.164] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
+[28May2025 01:52:57.164] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
+[28May2025 01:52:57.386] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[28May2025 01:52:57.406] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[28May2025 01:52:57.407] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[28May2025 01:52:57.407] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[28May2025 01:52:57.407] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[28May2025 01:52:57.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[28May2025 01:52:57.447] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[28May2025 01:52:57.477] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[28May2025 01:52:57.716] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[28May2025 01:52:57.748] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[28May2025 01:52:57.828] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/anmolu/GitHub/AHHHH/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23130!/assets/.mcassetsroot' uses unexpected schema
+[28May2025 01:52:57.828] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/anmolu/GitHub/AHHHH/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23130!/data/.mcassetsroot' uses unexpected schema
+[28May2025 01:52:58.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.30 Target: null
+[28May2025 01:52:58.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[28May2025 01:52:58.342] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.5.0 Target: null
+[28May2025 01:52:58.356] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[28May2025 01:52:58.456] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[28May2025 01:52:59.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[28May2025 01:52:59.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28May2025 01:52:59.108] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28May2025 01:52:59.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[28May2025 01:52:59.141] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28May2025 01:52:59.148] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[28May2025 01:52:59.251] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28May2025 01:52:59.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28May2025 01:52:59.651] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[28May2025 01:52:59.806] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[28May2025 01:52:59.879] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[28May2025 01:53:00.086] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 707 ms
+[28May2025 01:53:00.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.857s)! For help, type "help"
+[28May2025 01:53:00.091] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[28May2025 01:53:00.098] [Server thread/WARN] [ModernFix/]: Dedicated server took 6.003 seconds to load
+[28May2025 01:53:00.108] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[28May2025 01:58:27.753] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player discoinferno_ is 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 01:58:29.065] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7df97a06
+[28May2025 01:58:29.071] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: discoinferno_[/127.0.0.1:65351] logged in with entity id 148 at (-299.69442609428955, 98.0, 245.80751618125225)
+[28May2025 01:58:29.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ joined the game
+[28May2025 01:58:31.629] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of discoinferno_ (18)
+[28May2025 01:58:31.630] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to discoinferno_
+[28May2025 01:58:31.839] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 01:58:32.842] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 01:58:32.844] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player discoinferno_ (4be5d073-d865-48dc-9c9a-f05c0a542a51) successfully connected to voice chat
+[28May2025 02:00:06.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: discoinferno_ moved too quickly! 9.693350955005883,-3.3747383203857453,1.3013911384170456
+[28May2025 02:00:17.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set the time to 1000]
+[28May2025 02:00:43.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ has made the advancement [Monster Hunter]
+[28May2025 02:01:04.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Summoned new a Not-Deer]
+[28May2025 02:01:20.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Survival Mode]
+[28May2025 02:01:28.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ was slain by a Not-Deer
+[28May2025 02:01:34.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Creative Mode]
+[28May2025 02:05:17.684] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: discoinferno_ lost connection: Disconnected
+[28May2025 02:05:17.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ left the game
+[28May2025 02:05:17.696] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client discoinferno_
+[28May2025 02:10:21.702] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player discoinferno_ is 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 02:10:22.984] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@13668cad
+[28May2025 02:10:23.005] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: discoinferno_[/127.0.0.1:65455] logged in with entity id 1691 at (-193.69918992948897, 70.0, 295.61838768384524)
+[28May2025 02:10:23.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ joined the game
+[28May2025 02:10:25.423] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of discoinferno_ (18)
+[28May2025 02:10:25.424] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to discoinferno_
+[28May2025 02:10:25.632] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 02:10:26.637] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 4be5d073-d865-48dc-9c9a-f05c0a542a51
+[28May2025 02:10:26.638] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player discoinferno_ (4be5d073-d865-48dc-9c9a-f05c0a542a51) successfully connected to voice chat
+[28May2025 02:12:47.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You startled a Mimic Dweller!
+[28May2025 02:13:11.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: The difficulty has been set to Normal]
+[28May2025 02:13:27.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Gave 1 [Iron Axe] to discoinferno_]
+[28May2025 02:14:03.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Survival Mode]
+[28May2025 02:14:08.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ was slain by Mimic Dweller
+[28May2025 02:14:11.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Creative Mode]
+[28May2025 02:14:24.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Gamerule keepInventory is now set to: true]
+[28May2025 02:14:50.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Summoned new Area Effect Cloud]
+[28May2025 02:15:46.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Summoned new Skinstealer]
+[28May2025 02:15:50.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Survival Mode]
+[28May2025 02:15:57.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ was slain by Skinstealer
+[28May2025 02:16:02.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [discoinferno_: Set own game mode to Creative Mode]
+[28May2025 02:17:00.156] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: discoinferno_ lost connection: Disconnected
+[28May2025 02:17:00.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: discoinferno_ left the game
+[28May2025 02:17:00.158] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client discoinferno_
+[28May2025 02:17:11.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[28May2025 02:17:11.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28May2025 02:17:11.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28May2025 02:17:11.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28May2025 02:17:11.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[28May2025 02:17:11.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[28May2025 02:17:11.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[28May2025 02:17:11.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[28May2025 02:17:11.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28May2025 02:17:11.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28May2025 02:17:11.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

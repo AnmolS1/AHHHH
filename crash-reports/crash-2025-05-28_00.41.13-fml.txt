@@ -1,0 +1,127 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 2025-05-28 00:41:13
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23130!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Suspected Mods: NONE
+Stacktrace:
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:58) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+-- MOD old_goatman --
+Details:
+	Mod File: /Users/anmolu/GitHub/AHHHH/mods/Not-Deer.jar
+	Failure message: Mod old_goatman requires geckolib3 3.1.40 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.7.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:58) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1604) ~[?:?] {}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:56) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19.2-43.5.0-universal.jar%23135!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23130!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:565) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.5.0.jar%2373!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.8.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- MOD skinwalker_overhaul --
+Details:
+	Mod File: /Users/anmolu/GitHub/AHHHH/mods/Skin Stealer.jar
+	Failure message: Mod skinwalker_overhaul requires geckolib3 3.1.40 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.7.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD cave_dweller --
+Details:
+	Mod File: /Users/anmolu/GitHub/AHHHH/mods/Cave Dweller Reimagined.jar
+	Failure message: Mod cave_dweller requires geckolib3 3.1.40 or above
+		Currently, geckolib3 is not installed
+	Mod Version: 1.6.4
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Mac OS X (aarch64) version 15.1
+	Java Version: 24.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 145291408 bytes (138 MiB) / 318767104 bytes (304 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 14
+	Processor Vendor: Apple Inc.
+	Processor Name: Apple M4 Pro
+	Identifier: Apple Inc. Family 0x17d5b93a Model 0 Stepping 0
+	Microarchitecture: unknown
+	Frequency (GHz): 24.00
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 14
+	Graphics card #0 name: Apple M4 Pro
+	Graphics card #0 vendor: Apple (0x106b)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 0.00
+	Memory slot #0 clockSpeed (GHz): 0.00
+	Memory slot #0 type: unknown
+	Virtual memory max (MB): 49152.00
+	Virtual memory used (MB): 24984.14
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 1 total; -Xmx4G
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.5.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.5.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.5.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.5.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.5.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |NONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.5.0-universal.jar                 |Forge                         |forge                         |43.5.0              |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
